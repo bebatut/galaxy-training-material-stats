@@ -61,7 +61,7 @@ g = Github(config["github"])
 training_repo = g.get_user("galaxyproject").get_repo("training-material")
 #creation_date = training_repo.created_at
 # creation date at GCC2016
-creation_date = format_str_date("2016-25-06 00:00:01")
+creation_date = format_str_date("2016-06-01 00:00:01")
 # generate a data range with month (first day of the month)
 data_range = pd.date_range(
     format_date(creation_date),
