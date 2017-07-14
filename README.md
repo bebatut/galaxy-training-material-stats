@@ -5,7 +5,7 @@ Extraction of statistics for the Galaxy Training Material
 
 ## Requirements
 
-- [conda]()
+- [conda](https://conda.io/miniconda.html)
 - Create the conda environment:
 
     ```
