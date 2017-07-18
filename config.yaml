@@ -1,3 +1,7 @@
 github: ""
 width: 1440
 height: 900
+bg_col:
+  r: 1 #0.941
+  g: 1 #0.941
+  b: 1 #0.941

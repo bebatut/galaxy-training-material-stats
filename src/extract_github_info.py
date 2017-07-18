@@ -68,6 +68,7 @@ data_range = pd.date_range(
     format_date(datetime.datetime.now() + relativedelta(months=1)),
     freq=pd.tseries.offsets.DateOffset(months=1))
 
+bg_col = (config["bg_col"]["r"], config["bg_col"]["g"], config["bg_col"]["b"])
 
 rule all:
     input:
@@ -197,7 +198,7 @@ rule plot_contribution_number:
             "issue": "Issues"})
         # without hackathons
         # plot the number of contributions
-        fig = plt.plot(facecolor=(0.941,0.941,0.941))
+        fig = plt.plot()
         ax = df.plot(x_compat=True)
         # add vertical line for GCC 2016
         plt.axvline(
@@ -206,11 +207,11 @@ rule plot_contribution_number:
             linestyle='--',
             linewidth=2)
         plt.tight_layout()
-        ax.set_facecolor((0.941,0.941,0.941))
-        plt.savefig(str(output.contribution_graph), facecolor=(0.941,0.941,0.941), transparent=True)
+        ax.set_facecolor(bg_col)
+        plt.savefig(str(output.contribution_graph), facecolor=bg_col, transparent=True)
         # with hackathons
         # plot the number of contributions
-        fig = plt.plot(facecolor=(0.941,0.941,0.941))
+        fig = plt.plot()
         ax = df.plot(x_compat=True)
         # add vertical line for the contribution fests
         plt.axvline(
@@ -246,8 +247,8 @@ rule plot_contribution_number:
             verticalalignment='top')
         # export the figure
         plt.tight_layout()
-        ax.set_facecolor((0.941,0.941,0.941))
-        plt.savefig(str(output.contribution_graph_with_hackathon), facecolor=(0.941,0.941,0.941), transparent=True)
+        ax.set_facecolor(bg_col)
+        plt.savefig(str(output.contribution_graph_with_hackathon), facecolor=bg_col, transparent=True)
 
 
 rule extract_contributor_number:
@@ -332,5 +333,5 @@ rule plot_contributor_number:
             verticalalignment='top')
         # fit the plot to the figure
         plt.tight_layout()
-        ax.set_facecolor((0.941,0.941,0.941))
-        plt.savefig(str(output.contributor_graph), facecolor=(0.941,0.941,0.941), transparent=True)
+        ax.set_facecolor(bg_col)
+        plt.savefig(str(output.contributor_graph), facecolor=bg_col, transparent=True)
