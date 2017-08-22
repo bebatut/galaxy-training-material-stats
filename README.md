@@ -33,3 +33,9 @@ Extraction of statistics for the Galaxy Training Material
     ```
     $ snakemake --snakefile src/extract_hub_info.py
     ```
+
+- Extract the details about the previous resources in the GTN catalog
+
+    ```
+    $ snakemake --snakefile src/extract_previous_resources.py
+    ```
