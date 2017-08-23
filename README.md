@@ -39,3 +39,9 @@ Extraction of statistics for the Galaxy Training Material
     ```
     $ snakemake --snakefile src/extract_previous_resources.py
     ```
+
+- Extract the details about the current resources in the Galaxy Training Material
+
+    ```
+    $ snakemake --snakefile src/extract_repo_content.py
+    ```
