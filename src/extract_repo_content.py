@@ -9,7 +9,7 @@ configfile: "config.yaml"
 # connect to GitHub
 g = Github(config["github"])
 # retrieve the hub repository
-hub_repo = g.get_user("galaxyproject").get_repo("training-material")
+repo = g.get_user("galaxyproject").get_repo("training-material")
 
 
 rule all:
@@ -26,7 +26,9 @@ rule extract_repo_content:
     run:
         with open(str(output.repo_content), "w") as output:
             output.write('topic\ttarget\ttutorial\n')
-            for file in hub_repo.get_dir_contents("metadata"):
+            for file in repo.get_dir_contents("metadata"):
+                if file.name == "contributors.yaml":
+                    continue
                 file_content = base64.b64decode(file.content)
                 yaml_content = yaml.load(file_content)
                 title = yaml_content['title']
