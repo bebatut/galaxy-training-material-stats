@@ -240,7 +240,7 @@ rule extract_gtn_events:
                         df.loc[event] = archived_events[event]
                 else:
                     file_content = file_content.decode("utf-8")
-                    if file_content.find("gtn: y") == -1:
+                    if file_content.find("gtn: true") == -1:
                         continue
                     (title, date, days, latitude, longitude) = extract_event_info(file_content)
                     # add a row with the information
