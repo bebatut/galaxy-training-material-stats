@@ -74,8 +74,7 @@ rule all:
     input:
         contributors="images/contributors.png",
         contribution_graph = "images/contributions.png",
-        contribution_graph_with_hackathon = "images/contributions_with_hackathon.png",
-        new_contributor_graph = "images/new_contributors.png"
+        new_contributor_graph = "images/contributor_nb.png"
 
 
 rule extract_contributor_avatar:
@@ -185,8 +184,8 @@ rule plot_contribution_number:
     input:
         contribution_tab = "data/contributions.csv"
     output:
-        contribution_graph = "images/contributions.png",
-        contribution_graph_with_hackathon = "images/contributions_with_hackathon.png"
+        contribution_graph = "images/contributions.png"
+        #contribution_graph_with_hackathon = "images/contributions_with_hackathon.png"
     run:
         # load the contribution number
         df = pd.read_csv(str(input.contribution_tab), index_col = 0)
@@ -201,54 +200,54 @@ rule plot_contribution_number:
         fig = plt.plot()
         ax = df.plot(x_compat=True)
         # add vertical line for GCC 2016
-        plt.axvline(
-            x=format_str_date("2016-06-01 00:00:01"),
-            color='k',
-            linestyle='--',
-            linewidth=2)
+        #plt.axvline(
+        #    x=format_str_date("2016-06-01 00:00:01"),
+        #    color='k',
+        #    linestyle='--',
+        #    linewidth=2)
         plt.tight_layout()
         ax.set_facecolor(bg_col)
         plt.savefig(str(output.contribution_graph), facecolor=bg_col, transparent=True)
         # with hackathons
         # plot the number of contributions
-        fig = plt.plot()
-        ax = df.plot(x_compat=True)
-        # add vertical line for the contribution fests
-        plt.axvline(
-            x=format_str_date("2016-10-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        plt.axvline(
-            x=format_str_date("2017-05-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        plt.axvline(
-            x=format_str_date("2017-06-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        # add contribution fest date
-        plt.text(
-            format_str_date("2016-10-01 00:00:01"),
-            max(df.max()),
-            "Online\nContribution\nFest",
-            horizontalalignment='left',
-            verticalalignment='top')
-        plt.text(
-            format_str_date("2017-05-01 00:00:01"),
-            max(df.max()),
-            "Cambridge\nTraining\nHackathon",
-            horizontalalignment='right',
-            verticalalignment='top')
-        plt.text(
-            format_str_date("2017-06-01 00:00:01"),
-            max(df.max()),
-            "GCC\nHackathon",
-            horizontalalignment='left',
-            verticalalignment='top')
-        # export the figure
-        plt.tight_layout()
-        ax.set_facecolor(bg_col)
-        plt.savefig(str(output.contribution_graph_with_hackathon), facecolor=bg_col, transparent=True)
+        #fig = plt.plot()
+        #ax = df.plot(x_compat=True)
+        ## add vertical line for the contribution fests
+        ##plt.axvline(
+        ##    x=format_str_date("2016-10-01 00:00:01"),
+        ##    color='r',
+        ##    linestyle='--')
+        ##plt.axvline(
+        ##    x=format_str_date("2017-05-01 00:00:01"),
+        ##    color='r',
+        ##    linestyle='--')
+        ##plt.axvline(
+        ##    x=format_str_date("2017-06-01 00:00:01"),
+        ##    color='r',
+        ##    linestyle='--')
+        ### add contribution fest date
+        ##plt.text(
+        ##    format_str_date("2016-10-01 00:00:01"),
+        ##    max(df.max()),
+        ##    "Online\nContribution\nFest",
+        ##    horizontalalignment='left',
+        ##    verticalalignment='top')
+        ##plt.text(
+        ##    format_str_date("2017-05-01 00:00:01"),
+        ##    max(df.max()),
+        ##    "Cambridge\nTraining\nHackathon",
+        ##    horizontalalignment='right',
+        ##    verticalalignment='top')
+        ##plt.text(
+        ##    format_str_date("2017-06-01 00:00:01"),
+        ##    max(df.max()),
+        ##    "GCC\nHackathon",
+        ##    horizontalalignment='left',
+        ##    verticalalignment='top')
+        ## export the figure
+        #plt.tight_layout()
+        #ax.set_facecolor(bg_col)
+        #plt.savefig(str(output.contribution_graph_with_hackathon), facecolor=bg_col, transparent=True)
 
 
 rule extract_contributor_number:
@@ -288,7 +287,7 @@ rule plot_contributor_number:
     input:
         contributor_tab = "data/contributors.csv"
     output:
-        contributor_graph = "images/new_contributors.png"
+        contributor_graph = "images/contributor_nb.png"
     run:
         # load the contribution number
         df = pd.read_csv(str(input.contributor_tab), index_col = 0)
@@ -296,42 +295,12 @@ rule plot_contributor_number:
         df.index = df.index.map(format_str_date)
         # plot the number of contributions
         fig = plt.plot()
-        ax = df.first_contribution.plot(
+        ax = df.first_contribution.cumsum().plot(
             x_compat=True,
-            title="Number of new contributors")
-        # add vertical line for the contribution fests
-        plt.axvline(
-            x=format_str_date("2016-10-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        plt.axvline(
-            x=format_str_date("2017-05-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        plt.axvline(
-            x=format_str_date("2017-06-01 00:00:01"),
-            color='r',
-            linestyle='--')
-        # add contribution fest date
-        plt.text(
-            format_str_date("2016-10-01 00:00:01"),
-            max(df.max()),
-            "Online\nContribution\nFest",
-            horizontalalignment='left',
-            verticalalignment='top')
-        plt.text(
-            format_str_date("2017-05-01 00:00:01"),
-            max(df.max()),
-            "Cambridge\nTraining\nHackathon",
-            horizontalalignment='right',
-            verticalalignment='top')
-        plt.text(
-            format_str_date("2017-06-01 00:00:01"),
-            max(df.max()),
-            "GCC\nHackathon",
-            horizontalalignment='left',
-            verticalalignment='top')
+            title="Number of contributors")
         # fit the plot to the figure
         plt.tight_layout()
         ax.set_facecolor(bg_col)
         plt.savefig(str(output.contributor_graph), facecolor=bg_col, transparent=True)
+
+rule 
