@@ -21,27 +21,13 @@ Extraction of statistics for the Galaxy Training Material
     ```
 
 - Generate a Personal access tokens on GitHub (in Setting)
-    
-- Extract statistics and contributors picture from the GitHub repository
+- Launch Jupyter
 
     ```
-    $ snakemake --snakefile src/extract_github_info.py
+    $ jupyter notebook
     ```
 
-- Extract statistics about the GTN events on the Galaxy Hub
-
-    ```
-    $ snakemake --snakefile src/extract_hub_info.py
-    ```
-
-- Extract the details about the previous resources in the GTN catalog
-
-    ```
-    $ snakemake --snakefile src/extract_previous_resources.py
-    ```
-
-- Extract the details about the current resources in the Galaxy Training Material
-
-    ```
-    $ snakemake --snakefile src/extract_repo_content.py
-    ```
+- Open [http://localhost:8888](http://localhost:8888)
+- Open:
+    - [`src/extract_repo_content_stats.ipynb` Notebook](http://localhost:8888/notebooks/src/extract_repo_content_stats.ipynb) to extract the details about the current resources in the Galaxy Training Material and some statistics
+    - [`src/extract_github_info.ipynb` Notebook](http://localhost:8888/notebooks/src/extract_github_info.ipynb) to extract statistics and contributors picture from the GitHub repository
