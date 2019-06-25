@@ -31,3 +31,4 @@ Extraction of statistics for the Galaxy Training Material
 - Open:
     - [`src/extract_repo_content_stats.ipynb` Notebook](http://localhost:8888/notebooks/src/extract_repo_content_stats.ipynb) to extract the details about the current resources in the Galaxy Training Material and some statistics
     - [`src/extract_github_info.ipynb` Notebook](http://localhost:8888/notebooks/src/extract_github_info.ipynb) to extract statistics and contributors picture from the GitHub repository
+    - [`src/analyze_feedback.ipynb` Notebook](http://localhost:8888/notebooks/src/analyze_feedback.ipynb) to analyze the Google drive feedback (exported as tsv) that are embeded at the end of tutorials
