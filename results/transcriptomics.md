@@ -1,130 +1,192 @@
 - **De novo transcriptome reconstruction with RNA-Seq**
   - Pro:
-    - Analysis of the differential gene expression (*20/10/2018*)
-    - The explanations and solutions to check our output (*01/12/2018*)
-    - The explanation and description is easy to understand. (*20/02/2019*)
+    - Analysis of the differential gene expression (*2018-10-20 00:00:00*)
+    - The explanations and solutions to check our output (*2018-12-01 00:00:00*)
+    - The explanation and description is easy to understand. (*2019-02-20 00:00:00*)
   - Con:
-    - Visualization with Trackster hands-on section (*20/10/2018*)
-    - Explanations of the plots (*01/12/2018*)
+    - Visualization with Trackster hands-on section (*2018-10-20 00:00:00*)
+    - Explanations of the plots (*2018-12-01 00:00:00*)
 
 - **Differential abundance testing of small RNAs**
   - Pro:
-    - the Tutorial is so great and informative (*16/03/2019*)
-    - It was wonderful, I am teaching a lab introducing students to bioinformatics, and I am focusing on Galaxy. I wanted to show them how to map RNA-seq reads (small RNAs or mRNAs), I was parsing fasta files for this, but your tutorial already did this. It was immensely helpful. (*09/04/2019*)
+    - the Tutorial is so great and informative (*2019-03-16 00:00:00*)
+    - It was wonderful, I am teaching a lab introducing students to bioinformatics, and I am focusing on Galaxy. I wanted to show them how to map RNA-seq reads (small RNAs or mRNAs), I was parsing fasta files for this, but your tutorial already did this. It was immensely helpful. (*2019-04-09 00:00:00*)
   - Con:
-    - I wish if you could tell us how to adapt this tutorial to different small RNA species from different organisms, like where can I import the human miRNA, piRNA, .. reference genome from? (*16/03/2019*)
-    - For some reason the illumina adapters are not detected.  (*09/04/2019*)
-    - Needs another step after "BAM-to-Fastq" is run. Tool outputs "fastq", not "fastqsanger". Redetecting the datatype will work. Other option is to modify the tool to try to assign "fastqsanger" (if the data matches that type, cannot be assume, I'll open an IUC request). See discussion/confusion from a tutorial user here: https://help.galaxyproject.org/t/convert-from-bam-to-fastq/1318 (*20/05/2019*)
+    - I wish if you could tell us how to adapt this tutorial to different small RNA species from different organisms, like where can I import the human miRNA, piRNA, .. reference genome from? (*2019-03-16 00:00:00*)
+    - For some reason the illumina adapters are not detected.  (*2019-04-09 00:00:00*)
+    - Needs another step after "BAM-to-Fastq" is run. Tool outputs "fastq", not "fastqsanger". Redetecting the datatype will work. Other option is to modify the tool to try to assign "fastqsanger" (if the data matches that type, cannot be assume, I'll open an IUC request). See discussion/confusion from a tutorial user here: https://help.galaxyproject.org/t/convert-from-bam-to-fastq/1318 (*2019-05-20 00:00:00*)
 
 - **Downstream Single-cell RNA analysis with RaceID**
   - Pro:
-    - Those questions and solutions can help better understanding of the concepts. (*06/08/2019*)
+    - Those questions and solutions can help better understanding of the concepts. (*2019-08-06 00:00:00*)
 
 - **GO Enrichment Analysis**
   - Pro:
-    - Nicely explained and easy to follow even with own data. (*28/03/2019*)
+    - Nicely explained and easy to follow even with own data. (*2019-03-28 00:00:00*)
   - Con:
-    - There is no explanation of the graph (colours, %, arrows) and meaning of columns in tabular output (Study#, pvalue, qvalue). Would be nice to shortly describe this with one example GO term. (*28/03/2019*)
+    - There is no explanation of the graph (colours, %, arrows) and meaning of columns in tabular output (Study#, pvalue, qvalue). Would be nice to shortly describe this with one example GO term. (*2019-03-28 00:00:00*)
 
 - **Network analysis with Heinz**
   - Pro:
-    - It was well structured and simply explained (*18/10/2018*)
-    - Topic and clarity (DIY is easy) (*18/10/2018*)
-    - Easy to follow (*18/10/2018*)
-    - Nice clear and good to start a bit further down for speed so it fits the program. (*18/10/2018*)
-    - Good introduction by PowerPoint and time enough to finish (*18/10/2018*)
-    - step by step manual  (*18/10/2018*)
+    - It was well structured and simply explained (*2018-10-18 00:00:00*)
+    - Topic and clarity (DIY is easy) (*2018-10-18 00:00:00*)
+    - Easy to follow (*2018-10-18 00:00:00*)
+    - Nice clear and good to start a bit further down for speed so it fits the program. (*2018-10-18 00:00:00*)
+    - Good introduction by PowerPoint and time enough to finish (*2018-10-18 00:00:00*)
+    - step by step manual  (*2018-10-18 00:00:00*)
   - Con:
-    - It would be very helpful if the parameter setting on the tools was discussed a bit more and explain the reason why to certain choices (*18/10/2018*)
-    - More information about how works the analysis. (*18/10/2018*)
-    - note that the use of build list is unclear, perhaps good to move description of how to solve this  up so to prevent questions. (*18/10/2018*)
-    - it is good enough (*18/10/2018*)
+    - It would be very helpful if the parameter setting on the tools was discussed a bit more and explain the reason why to certain choices (*2018-10-18 00:00:00*)
+    - More information about how works the analysis. (*2018-10-18 00:00:00*)
+    - note that the use of build list is unclear, perhaps good to move description of how to solve this  up so to prevent questions. (*2018-10-18 00:00:00*)
+    - it is good enough (*2018-10-18 00:00:00*)
 
 - **Pre-processing of Single-Cell RNA Data**
   - Pro:
-    - It is great (*16/05/2019*)
-    - Clear step-by-step instructions (*24/07/2019*)
+    - It is great (*2019-05-16 00:00:00*)
+    - Clear step-by-step instructions (*2019-07-24 00:00:00*)
   - Con:
-    - Suggestions of what to do next once the count matrix has been constructed. Can one just use standard methods such as DESeq2 for differential expression? Some examples of PCA? (*24/07/2019*)
+    - Suggestions of what to do next once the count matrix has been constructed. Can one just use standard methods such as DESeq2 for differential expression? Some examples of PCA? (*2019-07-24 00:00:00*)
+
+- **RNA Seq Counts to Viz in R**
+  - Pro:
+    - the instructors were good and helpful (*2019-10-09 00:00:00*)
+    - I like the exercises and extra tips (*2019-10-09 00:00:00*)
+    - Easy to follow (*2019-10-09 00:00:00*)
+    - Lot of different ways to manipulate data (*2019-10-09 00:00:00*)
+    - packages, visualisation, manipulation of data (*2019-10-09 00:00:00*)
+    - The use of R in plot creation (*2019-10-09 00:00:00*)
+  - Con:
+    - not sure if can be improved, but maybe start with cloud from start? or ask people to install Rstudio on their computer so some problems can be avoided (but I know this will create more problems) (*2019-10-09 00:00:00*)
+    - Things that can go wrong... or potential errors (*2019-10-09 00:00:00*)
+    - A few syntax problems (*2019-10-09 00:00:00*)
+    - could be more taken into apart, several focuses, more focus to the vizualisation (*2019-10-09 00:00:00*)
+    - Would like to have more emphasis on actual data analysis and visualization. Too much time was spent on data frame functions.  Morning session already provided good introduction to data handling basics. (*2019-10-09 00:00:00*)
+    - I would be better to have more chance to practice on what we have leant (*2019-10-09 00:00:00*)
+    - Maybe less info for such a few hours (*2019-10-09 00:00:00*)
 
 - **RNA-Seq reads to counts**
   - Pro:
-    - I liked that it takes step by step (*10/01/2019*)
+    - I liked that it takes step by step (*2019-01-10 00:00:00*)
+    - very user friendly  (*2019-09-16 00:00:00*)
+    - Question and solutions part (*2019-10-22 00:00:00*)
+  - Con:
+    - If we could download it as a pdf  (*2019-10-22 00:00:00*)
 
 - **RNA-seq counts to genes**
   - Pro:
-    - Clear, comprehensive, great screenshots (*18/04/2019*)
-    - Easy to follow and showed what our plots/table should look like (*12/08/2019*)
+    - Clear, comprehensive, great screenshots (*2019-04-18 00:00:00*)
+    - Easy to follow and showed what our plots/table should look like (*2019-08-12 00:00:00*)
   - Con:
-    - Nothing so far (*18/04/2019*)
+    - Nothing so far (*2019-04-18 00:00:00*)
 
 - **RNA-seq counts to genes and pathways**
 
 
 - **RNA-seq genes to pathways**
   - Pro:
-    - easy to follow. thank you for including a picture of the results for comparison (*19/08/2019*)
+    - easy to follow. thank you for including a picture of the results for comparison (*2019-08-19 00:00:00*)
+    - perfect content  (*2019-09-30 00:00:00*)
+    - very clear, good sample data  (*2019-10-03 00:00:00*)
   - Con:
-    - more analysis/interpretation (*19/08/2019*)
+    - more analysis/interpretation (*2019-08-19 00:00:00*)
+    - update the content periodically, otherwise it is difficult to follow the procedures which are mentioned in here in the absence of some of the tools in the galaxy    (*2019-09-30 00:00:00*)
 
 - **Reference-based RNA-Seq data analysis**
   - Pro:
-    - İts explanatory feature (*20/09/2018*)
-    - The tutorial was very interesting and easy to follow (*27/09/2018*)
-    - Topic and completeness of the scope (*19/10/2018*)
-    - step-by-step configuration (*03/12/2018*)
-    - Nothing :) (*05/01/2019*)
-    - How about Computing the Z score of the normalized counts (*02/02/2019*)
-    - Good systematic overview. (*08/02/2019*)
-    - Nice, easy to follow, thorough (*11/04/2019*)
-    - Most complete tuto with lot of aspect. (*12/04/2019*)
-    - the "step by step " (*10/05/2019*)
-    - Clearly stated. (*30/05/2019*)
-    - all (*07/06/2019*)
-    - You can work only on the tutorial and if you follow the descriptions carefully, you will get the result you expect to get. (*12/06/2019*)
-    - Simplicity (*16/06/2019*)
-    - The tutorial is very detailed and helpful. (*10/07/2019*)
-    - The easy step by step guide. (*02/08/2019*)
-    - Answers provided all along the tutorial to make sure we are correct when performing the tutorial alone (*28/08/2019*)
+    - İts explanatory feature (*2018-09-20 00:00:00*)
+    - The tutorial was very interesting and easy to follow (*2018-09-27 00:00:00*)
+    - Topic and completeness of the scope (*2018-10-19 00:00:00*)
+    - step-by-step configuration (*2018-12-03 00:00:00*)
+    - Nothing :) (*2019-01-05 00:00:00*)
+    - How about Computing the Z score of the normalized counts (*2019-02-02 00:00:00*)
+    - Good systematic overview. (*2019-02-08 00:00:00*)
+    - Nice, easy to follow, thorough (*2019-04-11 00:00:00*)
+    - Most complete tuto with lot of aspect. (*2019-04-12 00:00:00*)
+    - the "step by step " (*2019-05-10 00:00:00*)
+    - Clearly stated. (*2019-05-30 00:00:00*)
+    - all (*2019-06-07 00:00:00*)
+    - You can work only on the tutorial and if you follow the descriptions carefully, you will get the result you expect to get. (*2019-06-12 00:00:00*)
+    - Simplicity (*2019-06-16 00:00:00*)
+    - The tutorial is very detailed and helpful. (*2019-07-10 00:00:00*)
+    - The easy step by step guide. (*2019-08-02 00:00:00*)
+    - Answers provided all along the tutorial to make sure we are correct when performing the tutorial alone (*2019-08-28 00:00:00*)
+    - Did we learned how to visualize data on our own and we could write questions to you (*2019-09-25 00:00:00*)
+    - very detailed explanation of the individual tools. the shared google docs file was actually very helpful to ask quastions in between (*2019-09-25 00:00:00*)
+    - The basics is taught; the google docs Q&A was super helpful (*2019-09-25 00:00:00*)
+    - I liked that the tools we've learned today were very practical ande represented entire workflow for data analysis from the moment we get fastq file from sequencing until the moment of data visualisation (*2019-09-25 00:00:00*)
+    - I liked that it is very detailed, easy to follow. (*2019-09-25 00:00:00*)
+    - Everything. Use of a google doc for people who are shy was very thoughtful. I have rarely seen such care by organisers. Thank you very much! (*2019-09-25 00:00:00*)
+    - Content is perfect and it helps us a lot (*2019-09-29 00:00:00*)
+    - Key points, questions, recommendations for advances methods (*2019-10-08 00:00:00*)
+    - examples, datasets, explaination (*2019-10-08 00:00:00*)
+    - detailed explanation of all the options that can be altered in each tool (*2019-10-08 00:00:00*)
+    - very useful topics (*2019-10-08 00:00:00*)
+    - Good presentation, well organised tutorial (*2019-10-08 00:00:00*)
+    - Many useful examples (*2019-10-08 00:00:00*)
+    - Got a good basic overview of the workflow (*2019-10-08 00:00:00*)
+    - Good materials. Good clear presentations. (*2019-10-08 00:00:00*)
+    - Everything worked fine, nice hands-on practice for beginners (*2019-10-08 00:00:00*)
+    - It is a perfect introduction! (*2019-10-20 00:00:00*)
+    - Each step is very detailed (*2019-10-22 00:00:00*)
   - Con:
-    - Naming of the output files (*27/09/2018*)
-    - I think there is an error: Join two Datasets tool  * with (output of the last Filter tool)  --> Should be with (output of Concatenate tool)  (*19/10/2018*)
-    - colors to enhance instructions clarity  (*03/12/2018*)
-    - I think it's already good and clear as it is (*05/01/2019*)
-    - The website told me that I was over my disk usage limit once I imported the fastqsanger files.  (*08/02/2019*)
-    - 1) *The GO results I were slightly different than what the tutorial said, though all the rest of the steps were matching the tutorial's. 2) When uploading the GTF file listed in the tutorial (zenodo link) it was not uploaded as GTF format, I had to manually convert to GTF.  Would definitely be a 5 star review if these were corrected. (*11/04/2019*)
-    - Maybe add so MULTIQC (for inferexperiment for example) for an easiest visualisation. (*12/04/2019*)
-    - I can not say for sure. (*30/05/2019*)
-    - I need to cite this tutorial, how can I cite? If you could send how to do this, I wil be very thankful! lgbragavet@gmail.com is my email, and I'm using Mendeley app to make my references  (*07/06/2019*)
-    - waiting time during analyses (*12/06/2019*)
-    - Explaining how to get the featureCounts data from another history (drag and drop and say it should be taken from another history in the first place). (*12/06/2019*)
-    - Explanation of steps (*16/06/2019*)
-    - It's good already! (*02/08/2019*)
-    - There might be a bug in one of the tool form values. Search for "transform my data" in the hands on and compare to this short Q&A at Galaxy Help ("Log2(value)" in tuto versus "Log2(value+1) " when the user was given advice. I'll try to find time to test this, too, but anyone who gets there quicker wins the PR :) https://help.galaxyproject.org/t/fatal-error-heatmap2-tool/1288  The heatmap tool has been problematic on and off 6+ years. I'm not even sure if working at usegalaxy.org right now, or if at which, if any, other Galaxy servers. I stopped tracking it after it was broken for so long and just told people to use different tools. I'll review the MTS, etc... maybe some servers need an update.  @jennaj  (*09/08/2019*)
-    - Comment section to help people with trouble on this tutorial ? (*28/08/2019*)
+    - Naming of the output files (*2018-09-27 00:00:00*)
+    - I think there is an error: Join two Datasets tool  * with (output of the last Filter tool)  --> Should be with (output of Concatenate tool)  (*2018-10-19 00:00:00*)
+    - colors to enhance instructions clarity  (*2018-12-03 00:00:00*)
+    - I think it's already good and clear as it is (*2019-01-05 00:00:00*)
+    - The website told me that I was over my disk usage limit once I imported the fastqsanger files.  (*2019-02-08 00:00:00*)
+    - 1) *The GO results I were slightly different than what the tutorial said, though all the rest of the steps were matching the tutorial's. 2) When uploading the GTF file listed in the tutorial (zenodo link) it was not uploaded as GTF format, I had to manually convert to GTF.  Would definitely be a 5 star review if these were corrected. (*2019-04-11 00:00:00*)
+    - Maybe add so MULTIQC (for inferexperiment for example) for an easiest visualisation. (*2019-04-12 00:00:00*)
+    - I can not say for sure. (*2019-05-30 00:00:00*)
+    - I need to cite this tutorial, how can I cite? If you could send how to do this, I wil be very thankful! lgbragavet@gmail.com is my email, and I'm using Mendeley app to make my references  (*2019-06-07 00:00:00*)
+    - waiting time during analyses (*2019-06-12 00:00:00*)
+    - Explaining how to get the featureCounts data from another history (drag and drop and say it should be taken from another history in the first place). (*2019-06-12 00:00:00*)
+    - Explanation of steps (*2019-06-16 00:00:00*)
+    - It's good already! (*2019-08-02 00:00:00*)
+    - There might be a bug in one of the tool form values. Search for "transform my data" in the hands on and compare to this short Q&A at Galaxy Help ("Log2(value)" in tuto versus "Log2(value+1) " when the user was given advice. I'll try to find time to test this, too, but anyone who gets there quicker wins the PR :) https://help.galaxyproject.org/t/fatal-error-heatmap2-tool/1288  The heatmap tool has been problematic on and off 6+ years. I'm not even sure if working at usegalaxy.org right now, or if at which, if any, other Galaxy servers. I stopped tracking it after it was broken for so long and just told people to use different tools. I'll review the MTS, etc... maybe some servers need an update.  @jennaj  (*2019-08-09 00:00:00*)
+    - Comment section to help people with trouble on this tutorial ? (*2019-08-28 00:00:00*)
+    - Slower; maybe more days for RNAseq (*2019-09-25 00:00:00*)
+    - I would be nice to have a little more explanations of what certain parameters we set mean (*2019-09-25 00:00:00*)
+    - The only moment when I was lost was where to find Galaxy Upload Manager (maybe an icon shown in tutorial will be helpful?). It is a lot of information everyday during the tutorial, short summaries after each step (maybe with writing big steps on the white board) could improve the training even more. (*2019-09-25 00:00:00*)
+    - Some links with video recording of a person performing the tutorial while explaining the steps and variations that can be performed. It will be a very useful for people who cannot afford to attend the workshop. Sorry for suggesting more work. But you are so close to a perfect tutorial. Thanks again! (*2019-09-25 00:00:00*)
+    - Please give us a chance to download the content as a PDF file with proper citation, this may help us to share and keep it and access offline. (*2019-09-29 00:00:00*)
+    - have more time to practice on dataset (*2019-10-08 00:00:00*)
+    - it was a bit tiring at the end, where the most valuable things were taught (*2019-10-08 00:00:00*)
+    - Too much info for one day (*2019-10-08 00:00:00*)
+    - One needs just more time to dive into the different parts of presented analysis.. (*2019-10-08 00:00:00*)
+    - The tempo in the afternoon session was at times too fast. The tools are slow and at least I was lagging behind at some points. The presentation on general RNA sequencing could maybe fit better after general Galaxy presentation, which took place yesterday. It would be more engaging if the presentation was tied to some kind of real experiment. e.g. we are trying to find out what happens after some treatment and we reach a conclusion afterwards. (*2019-10-08 00:00:00*)
+    - some theoretical stuff was a bit hard to follow (*2019-10-08 00:00:00*)
+    - Provide a video or screenshot (*2019-10-22 00:00:00*)
 
 - **Reference-based RNAseq data analysis (long)**
   - Pro:
-    - interesting and user friendly  (*27/09/2018*)
+    - interesting and user friendly  (*2018-09-27 00:00:00*)
   - Con:
-    - very good  (*27/09/2018*)
+    - very good  (*2018-09-27 00:00:00*)
 
 - **Visualization of RNA-Seq results with CummeRbund**
 
 
 - **Visualization of RNA-Seq results with Volcano Plot**
   - Pro:
-    - It was very easy to follow (*04/01/2019*)
-    - complete, with examples (questions+solutions) (*20/06/2019*)
-    - Basic explanations are good and methods and tools used are also understandable. (*11/07/2019*)
-    - Crisp and clear explanation  (*02/08/2019*)
-    - Easy to understand the hard parts (*08/08/2019*)
+    - It was very easy to follow (*2019-01-04 00:00:00*)
+    - complete, with examples (questions+solutions) (*2019-06-20 00:00:00*)
+    - Basic explanations are good and methods and tools used are also understandable. (*2019-07-11 00:00:00*)
+    - Crisp and clear explanation  (*2019-08-02 00:00:00*)
+    - Easy to understand the hard parts (*2019-08-08 00:00:00*)
+    - very much (*2019-09-23 00:00:00*)
+    - explanations are clear, there's more info if needed. Thank you! (*2019-09-26 00:00:00*)
+    - Explanation (*2019-10-25 00:00:00*)
   - Con:
-    - Tutorial doesn't have any public servers listed. Maybe a tool version conflict? Latest version is 0.0.3 and is installed at EU (and I made a request to add it to ORG). Are probably more tutorials like this -- seems the lists of "instances" is decreasing overall (bigger project, maybe good for the GTN or GCC co-fests) (*09/05/2019*)
-    - Providing the code to generate the figures in solutions to help troubleshoot errors can help better. (*11/07/2019*)
-    - The representation can be more organized (*02/08/2019*)
-    - So far so good (*08/08/2019*)
+    - Tutorial doesn't have any public servers listed. Maybe a tool version conflict? Latest version is 0.0.3 and is installed at EU (and I made a request to add it to ORG). Are probably more tutorials like this -- seems the lists of "instances" is decreasing overall (bigger project, maybe good for the GTN or GCC co-fests) (*2019-05-09 00:00:00*)
+    - Providing the code to generate the figures in solutions to help troubleshoot errors can help better. (*2019-07-11 00:00:00*)
+    - The representation can be more organized (*2019-08-02 00:00:00*)
+    - So far so good (*2019-08-08 00:00:00*)
+    - That is more better if add R script (*2019-09-23 00:00:00*)
+    - If it could come up in google searches a little more in the top list even without the search word galaxy (*2019-09-26 00:00:00*)
 
 - **Visualization of RNA-Seq results with heatmap2**
-
+  - Pro:
+    - we get through a lot of different tools (*2019-10-08 00:00:00*)
+  - Con:
+    - maybe it should be separated to 2 days, because it was a lot of stuff (*2019-10-08 00:00:00*)
 

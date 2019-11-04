@@ -1,26 +1,32 @@
 - **De Bruijn Graph Assembly**
   - Pro:
-    - Everything works with provided data and the scale is good for use in class (*19/09/2018*)
-    - Easy to follow (*25/03/2019*)
+    - Everything works with provided data and the scale is good for use in class (*2018-09-19 00:00:00*)
+    - Easy to follow (*2019-03-25 00:00:00*)
+    - examples (*2019-10-25 00:00:00*)
   - Con:
-    - Could you provide the fragment size separating the paired ends? It would also be nice to have more info for instructors about the genome for doing additional exercises based on the assemblies. (*19/09/2018*)
+    - Could you provide the fragment size separating the paired ends? It would also be nice to have more info for instructors about the genome for doing additional exercises based on the assemblies. (*2018-09-19 00:00:00*)
+    - command lines (*2019-10-25 00:00:00*)
 
 - **Introduction to Genome Assembly**
   - Pro:
-    - This is a great tutorial. Saved me a lot of time. Well done and thank you. (*13/03/2019*)
-    - the real data analysis (*03/06/2019*)
-    - all in this tutorial are so usefull (*12/07/2019*)
-    - on galaxy portal lot of assembler are available, but most of the scaffolders are not working or unavailable. (*13/09/2019*)
+    - This is a great tutorial. Saved me a lot of time. Well done and thank you. (*2019-03-13 00:00:00*)
+    - the real data analysis (*2019-06-03 00:00:00*)
+    - all in this tutorial are so usefull (*2019-07-12 00:00:00*)
+    - on galaxy portal lot of assembler are available, but most of the scaffolders are not working or unavailable. (*2019-09-13 00:00:00*)
+    - Step by Step instructions (*2019-10-21 00:00:00*)
   - Con:
-    - Similar tutorials for other bioinformatics exercise. If all tutorials on the web were this easy to follow everybody would know what they're doing. :) (*13/03/2019*)
-    - provide links to the tool side by side (*03/06/2019*)
-    - i dont know (*12/07/2019*)
-    - need good genome ascaffolder or soapdenovo tool (*13/09/2019*)
+    - Similar tutorials for other bioinformatics exercise. If all tutorials on the web were this easy to follow everybody would know what they're doing. :) (*2019-03-13 00:00:00*)
+    - provide links to the tool side by side (*2019-06-03 00:00:00*)
+    - i dont know (*2019-07-12 00:00:00*)
+    - need good genome ascaffolder or soapdenovo tool (*2019-09-13 00:00:00*)
+    - i seems to be abit slow (*2019-09-20 00:00:00*)
+    - i seems to be abit slow (*2019-09-20 00:00:00*)
+    - Feeding in multiple samples at the same time for FastQC (*2019-10-21 00:00:00*)
 
 - **Unicycler Assembly**
   - Pro:
-    - THE INFO USED (*08/02/2019*)
-    - easy to follow, step by step (*16/04/2019*)
+    - THE INFO USED (*2019-02-08 00:00:00*)
+    - easy to follow, step by step (*2019-04-16 00:00:00*)
   - Con:
-    - THE WAY OF EXPLAINING (*08/02/2019*)
+    - THE WAY OF EXPLAINING (*2019-02-08 00:00:00*)
 
