@@ -5,9 +5,12 @@
     - Very clear instructions  (*2019-07-15 00:00:00*)
     - Almost everything (*2019-07-18 00:00:00*)
     - The Questions (*2019-10-09 00:00:00*)
+    - yes. thank you :) (*2019-11-30 00:00:00*)
   - Con:
     - More details on the Selection of analysis mode (non default option) (*2019-07-15 00:00:00*)
     - In step 1 of "Hands-on: Mapping with Bowtie2" your instructions mention that the paired-end input is the output of Trim Galore!. However, the previous tutorial on quality control uses MultiQC. As such, the reader of this tutorial will be confused.  In "Hands on-Inspect a BAM/SAM file" the 11 fields listed in the tutorial (QNAME, FLAG...) do not match with the 10 field names in the output produced (QNAME, FLAG, RNAME, POS, MAPQ, CIGAR, MRNM, MPOS, ISIZE, SEQ). The JBrowse viewer, doesn't work for me, get an error (*2019-07-18 00:00:00*)
+    - More detailed information, hard to follow instructions (*2019-11-06 00:00:00*)
+    - Images of Alignment using GATK or BWA in IGV (*2019-11-30 00:00:00*)
 
 - **Quality Control**
   - Pro:
@@ -85,4 +88,5 @@
     - More explanation and better voice quality. (*2019-10-07 00:00:00*)
     - Provide example data where 3-4 paired end samples provided. Especially, how to analyse and visualize QC data for multiplex samples.  (*2019-10-08 00:00:00*)
     -  Not much really (*2019-10-11 00:00:00*)
+    - why not using trim galore instead of cutadapt? (*2019-11-20 00:00:00*)
 

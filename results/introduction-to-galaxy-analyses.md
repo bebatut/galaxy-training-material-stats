@@ -71,6 +71,19 @@
     - very helpful visualizations for tools inputs and outputs (*2019-10-17 00:00:00*)
     - Its easy and well explained (*2019-10-22 00:00:00*)
     - great and easy to learn (*2019-10-31 00:00:00*)
+    - Clarity (*2019-11-05 00:00:00*)
+    - Full instructions, and it looked like it does on my version (*2019-11-07 00:00:00*)
+    - graphical presentation (*2019-11-10 00:00:00*)
+    - Easy to follow along (*2019-11-13 00:00:00*)
+    - C'est très bien expliqué (*2019-11-19 00:00:00*)
+    - very clear (*2019-11-20 00:00:00*)
+    - easy to follow (*2019-11-25 00:00:00*)
+    - Quick and easy to follow! (*2019-11-28 00:00:00*)
+    - very good step by step instructions (*2019-11-28 00:00:00*)
+    - Straightforward and easy to follow (*2019-11-28 00:00:00*)
+    - the examples (*2019-12-01 00:00:00*)
+    - easy to follow and very informative (*2019-12-02 00:00:00*)
+    - Examples and hand-on exercises  (*2019-12-03 00:00:00*)
   - Con:
     - the clear instruction pattern (*2018-09-09 00:00:00*)
     - Nothing (*2018-10-08 00:00:00*)
@@ -114,6 +127,9 @@
     - Not that I know of (*2019-10-17 00:00:00*)
     - nothing (*2019-10-22 00:00:00*)
     - I do like youtube tutorial (*2019-10-31 00:00:00*)
+    - nothing (*2019-11-13 00:00:00*)
+    - some guidance on the graphs that are generated and what they mean (*2019-11-25 00:00:00*)
+    - explain what the each step is doing to my data in this particular example (*2019-11-28 00:00:00*)
 
 - **From peaks to genes**
   - Pro:
@@ -145,6 +161,7 @@
     - The easy to follow structure of the guide plus the additional links provided in the Tips sections. (*2019-09-28 00:00:00*)
     - Nothing. (*2019-09-29 00:00:00*)
     - Clear and easy to follow (*2019-09-29 00:00:00*)
+    - nic (*2019-11-28 00:00:00*)
   - Con:
     - maybe by adding more pictures next to the explanations? (*2018-09-17 00:00:00*)
     - More information on the flanking region tool (how it works) (*2018-09-17 00:00:00*)
@@ -164,6 +181,7 @@
     - I recommend adding more images of the data being analysed for part 2 section Repeat workflow, 'Run a workflow with changed settings'. This would have been helpful to be able to compare my results with the guides. (*2019-09-28 00:00:00*)
     - Create peak summit file sections does not run. (*2019-09-29 00:00:00*)
     - More results illustrations (*2019-09-29 00:00:00*)
+    - vse (*2019-11-28 00:00:00*)
 
 - **Galaxy 101**
   - Pro:
@@ -210,6 +228,8 @@
     - It was easy to follow (*2019-10-14 00:00:00*)
     - Informative and easy to follow (*2019-10-16 00:00:00*)
     - Step by step, clear, accurate (*2019-11-01 00:00:00*)
+    - Easy  (*2019-11-21 00:00:00*)
+    - very clear instructions (*2019-11-29 00:00:00*)
   - Con:
     - If there was a guide to say which tool to use for a specific analysis to be made. Unless I know which tool to look for, I'd be lost (*2018-09-15 00:00:00*)
     - The rate of update of the tutorial (*2018-09-26 00:00:00*)
@@ -244,6 +264,13 @@
     - other cases (*2019-10-08 00:00:00*)
     - nothing (*2019-10-14 00:00:00*)
     - The display is too wide when you want to juxtapose the tutorial window with galaxy (*2019-11-01 00:00:00*)
+    - Maybe automattically update to gencode updates, there is no genecode v29 anymore (*2019-11-21 00:00:00*)
+
+- **Galaxy 101 for everyone**
+  - Pro:
+    - The hands on exercises (*2019-11-11 00:00:00*)
+  - Con:
+    - The images about the diamonds are not very legible (*2019-11-11 00:00:00*)
 
 - **IGV Introduction**
   - Pro:

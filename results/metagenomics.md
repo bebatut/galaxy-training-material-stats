@@ -28,6 +28,7 @@
     -   (*2019-09-05 00:00:00*)
     - Good but didn't show visualisations at the end. The phinch visualisations weren't present. (*2019-09-23 00:00:00*)
     - Perfectly explained (*2019-10-02 00:00:00*)
+    - Flow (*2019-11-18 00:00:00*)
   - Con:
     - Flexibility of the analysis depending on the type of samples, replicates, etc (*2019-05-31 00:00:00*)
     - troubleshooting  (*2019-05-31 00:00:00*)
@@ -36,6 +37,7 @@
     - Functional metagenomics (*2019-08-29 00:00:00*)
     - The phinch graphs (*2019-09-23 00:00:00*)
     - The use of the  Venn software was not available (*2019-10-02 00:00:00*)
+    - Where to download different databases (*2019-11-18 00:00:00*)
 
 - **16S Microbial Analysis with mothur (short)**
 

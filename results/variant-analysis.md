@@ -8,8 +8,10 @@
 - **Calling variants in non-diploid systems**
   - Pro:
     - I like the idea (*2018-11-04 00:00:00*)
+    - I enjoyed the explanation of the purpose of certain tools where insight was provided for people who may not be familiar with this area of genetics. (*2019-11-11 00:00:00*)
   - Con:
     - After running the FreeBayes I ended up with 2 variants instead of 30.  And so got stuck there.  Also it's not clear why the filtering and subsequent steps would be done on the markduplicates output, rather than the left align output.  Why do the leftalign if we don't use that output again?  I did both and got the same results. Overall I am finding the galaxy experience to be rather frustrating.  I'm trying to decide whether to incorporate these tutorials in my class, but often I can't find the necessary input data, get unexplained errors, or get output different from the tutorial (*2018-11-04 00:00:00*)
+    - Many of the steps are out dated which makes it hard to follow. It is very evident that this tutorial needs to be updated. For example, please see the instructions for VCF filtering. The user cannot follow the instructions or how it is shown in the screenshot without receiving an error. (*2019-11-11 00:00:00*)
 
 - **Exome sequencing data analysis**
   - Pro:

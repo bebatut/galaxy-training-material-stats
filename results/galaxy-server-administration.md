@@ -11,8 +11,10 @@
 - **Deploying a compute cluster in OpenStack via Terraform**
   - Pro:
     - Really detailed, could use it for my project for creating my project (*2018-12-19 00:00:00*)
+    - detailed explanations and working examples (*2019-11-20 00:00:00*)
   - Con:
     - maybe go deeper and show a template for a project (*2018-12-19 00:00:00*)
+    - showing how to attach volumes to the exec vm's (ie, create n volumes, and connect one to each vm to use for that vm's state / docker volume) (*2019-11-20 00:00:00*)
 
 - **Galaxy Installation on Kubernetes**
 

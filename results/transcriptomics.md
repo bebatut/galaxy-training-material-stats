@@ -3,9 +3,11 @@
     - Analysis of the differential gene expression (*2018-10-20 00:00:00*)
     - The explanations and solutions to check our output (*2018-12-01 00:00:00*)
     - The explanation and description is easy to understand. (*2019-02-20 00:00:00*)
+    - Tutorial was technically speaking good, but wasn't matching the title (*2019-11-06 00:00:00*)
   - Con:
     - Visualization with Trackster hands-on section (*2018-10-20 00:00:00*)
     - Explanations of the plots (*2018-12-01 00:00:00*)
+    - Match the title... This was NOT "de-novo" Transcriptome-Assembly!!! (*2019-11-06 00:00:00*)
 
 - **Differential abundance testing of small RNAs**
   - Pro:

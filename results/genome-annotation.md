@@ -10,9 +10,11 @@
   - Pro:
     - The first steps of the tutorial are great, described in a simple and objective way.  (*2019-02-27 00:00:00*)
     - Analysis for tutorial should be done on large datasets like genome from population rather than on individual genome.   (*2019-05-12 00:00:00*)
+    - nothing (*2019-11-13 00:00:00*)
   - Con:
     - I was unable to continue from the "Hands-on: Run I look for the genome" stage. I looked for the BUSCO tool on the Galaxy platform but nothing was found. For this reason I could not complete the tutorial.  It would be good to evaluate the availability of this tool or change this step of the tutorial so that we can finish successfully, thank you! (*2019-02-27 00:00:00*)
     - There is no Maker in Galaxy (*2019-04-15 00:00:00*)
+    - everything no vid (*2019-11-13 00:00:00*)
 
 - **Genome annotation with Prokka**
   - Pro:

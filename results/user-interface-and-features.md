@@ -1,8 +1,10 @@
 - **Jupyter: Use Jupyter notebooks in Galaxy**
   - Pro:
     - Nicely done with screenshots (*2019-09-10 00:00:00*)
+    -  Useful information (*2019-11-26 00:00:00*)
   - Con:
     - Would love info about using R in this setting. (*2019-09-10 00:00:00*)
+    - Need instructions for setting up an image on the galaxy server (*2019-11-26 00:00:00*)
 
 - **RStudio in Galaxy**
   - Pro:
@@ -14,9 +16,11 @@
 - **Workflows: Extracting Workflows from Histories**
   - Pro:
     - Thorough step by step directions. Does not assume you know stuff already. (*2018-11-15 00:00:00*)
+    - Very detailed and most steps are well explained. (*2019-11-29 00:00:00*)
   - Con:
     - Naming the output files was a little confusing, especially when I was left on my own to continue to name all the rest of them. Why doesn't the new name show up in the workflow boxes after you name them? (*2018-11-15 00:00:00*)
     - Galaxy does not run the last step of the workflow (concatenate forward and reverse overlaps) - does not even appear in the history at all  (*2019-01-16 00:00:00*)
+    - I do not understand why under "Test the workflow", point 5 it says "Repeat until all input datasets are set.". The only input dataset is that of the genes of chromosome 22 as far as I understood. Second, the list of genes on chr22 have in the first place been extracted from UCSC. But this step is not included in the workflow, right? So, the workflow only starts with a dataset that needs to be copied to a new history if the workflow is to be applied to another dataset (i.e. genes of chr10)? Third, when running the workflow there is that option with multiple datasets. It would have been nice to mention and explain that. (*2019-11-29 00:00:00*)
 
 - **Workflows: Using Workflow Parameters**
 
