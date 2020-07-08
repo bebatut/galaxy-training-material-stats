@@ -1,22 +1,39 @@
+- **CLIP-Seq data analysis from pre-processing to motif detection**
+  - Pro:
+    - I like that it exists (*2020-06-09 00:00:00*)
+  - Con:
+    - It is either outdated for the current Galaxy modules or the Galaxy interface has had major changes. Many steps in this tutorial do not match up to Galaxy- I am unable to produce any results. (*2020-06-09 00:00:00*)
+
+- **Clustering 3K PBMCs with Scanpy**
+
+
 - **De novo transcriptome reconstruction with RNA-Seq**
   - Pro:
     - Analysis of the differential gene expression (*2018-10-20 00:00:00*)
     - The explanations and solutions to check our output (*2018-12-01 00:00:00*)
     - The explanation and description is easy to understand. (*2019-02-20 00:00:00*)
     - Tutorial was technically speaking good, but wasn't matching the title (*2019-11-06 00:00:00*)
+    - friendly (*2019-12-07 00:00:00*)
+    - Very clear  (*2020-03-20 00:00:00*)
+    - it is a clear tutorial (though I am VERY NEW to Galaxy platform and RNA Seq analysis, I grasped a considerable part of the analysis) (*2020-07-03 00:00:00*)
   - Con:
     - Visualization with Trackster hands-on section (*2018-10-20 00:00:00*)
     - Explanations of the plots (*2018-12-01 00:00:00*)
     - Match the title... This was NOT "de-novo" Transcriptome-Assembly!!! (*2019-11-06 00:00:00*)
+    - It is very useful information with details.. beginner's aslo can read and get idea..! Thank you  (*2019-12-21 00:00:00*)
+    - Can you explain the format of the output, how to convert the ID to known gene (SYMBOL, ENTREZ etc). Thanks. (*2020-03-20 00:00:00*)
+    - Has the reference genome of interest should be in GTF file format? In tutorial RefSeq_reference_GTF file is download but musmusculus genome is also added as built-in genome to the analysis. Are both of them in GTF file formats? If yes, I see in ensemble different files under GTF files. Which one should be used for the genomes non-available in the Galaxy platform as built-in reference genomes? (I will run my analysis on plants, that is the reason why I am asking)   Also, How do you know there are 249 transcripts with a significant change in gene expression between the G1E and megakaryocyte cellular states? Where is this statistics coming from? I believe the filter part should be explained more in detail.   All aside, IT WAS VERYYYYY HELPFUL TO ME! HEARTFELTTTT THANKS!!!   (*2020-07-03 00:00:00*)
 
 - **Differential abundance testing of small RNAs**
   - Pro:
     - the Tutorial is so great and informative (*2019-03-16 00:00:00*)
     - It was wonderful, I am teaching a lab introducing students to bioinformatics, and I am focusing on Galaxy. I wanted to show them how to map RNA-seq reads (small RNAs or mRNAs), I was parsing fasta files for this, but your tutorial already did this. It was immensely helpful. (*2019-04-09 00:00:00*)
+    - the step by step approach  (*2020-03-25 00:00:00*)
   - Con:
     - I wish if you could tell us how to adapt this tutorial to different small RNA species from different organisms, like where can I import the human miRNA, piRNA, .. reference genome from? (*2019-03-16 00:00:00*)
     - For some reason the illumina adapters are not detected.  (*2019-04-09 00:00:00*)
     - Needs another step after "BAM-to-Fastq" is run. Tool outputs "fastq", not "fastqsanger". Redetecting the datatype will work. Other option is to modify the tool to try to assign "fastqsanger" (if the data matches that type, cannot be assume, I'll open an IUC request). See discussion/confusion from a tutorial user here: https://help.galaxyproject.org/t/convert-from-bam-to-fastq/1318 (*2019-05-20 00:00:00*)
+    - take a look at the files, i could not find any adapters on the raw reads and therefore the "adapter trimming" section was hard to make.  more explaination on what the different steps are good for, and why the three reference files (rRNA, miRNA_hairpin and transcriptome) are used in particular (*2020-03-25 00:00:00*)
 
 - **Downstream Single-cell RNA analysis with RaceID**
   - Pro:
@@ -25,8 +42,10 @@
 - **GO Enrichment Analysis**
   - Pro:
     - Nicely explained and easy to follow even with own data. (*2019-03-28 00:00:00*)
+    - easy to start and its not completely frustrating like the university slides. It's quite astonishing that our university can't provide clear instructions how stuff works but the platform that is aimed at scientists does a better job explaining it. Thanks a lot (*2020-03-10 00:00:00*)
   - Con:
     - There is no explanation of the graph (colours, %, arrows) and meaning of columns in tabular output (Study#, pvalue, qvalue). Would be nice to shortly describe this with one example GO term. (*2019-03-28 00:00:00*)
+    - explanation part for hypergeometrical distribution is confusing me because the same words are used over and over again. maby include graphics to visualize the frequencies  (*2020-03-10 00:00:00*)
 
 - **Network analysis with Heinz**
   - Pro:
@@ -46,8 +65,10 @@
   - Pro:
     - It is great (*2019-05-16 00:00:00*)
     - Clear step-by-step instructions (*2019-07-24 00:00:00*)
+    - it was the best explanation of reading and understanding barcodes as well as preprocessing of scrna seq.   appreciate it for clear explanation (*2020-02-12 00:00:00*)
   - Con:
     - Suggestions of what to do next once the count matrix has been constructed. Can one just use standard methods such as DESeq2 for differential expression? Some examples of PCA? (*2019-07-24 00:00:00*)
+    - as I am new in this field I can't say anything:)) (*2020-02-12 00:00:00*)
 
 - **RNA Seq Counts to Viz in R**
   - Pro:
@@ -66,18 +87,32 @@
     - I would be better to have more chance to practice on what we have leant (*2019-10-09 00:00:00*)
     - Maybe less info for such a few hours (*2019-10-09 00:00:00*)
 
+- **RNA-RNA interactome data analysis**
+  - Pro:
+    - Friendly tutorial (*2020-06-09 00:00:00*)
+  - Con:
+    - It may be clarifying the source of some data or files like "transcriptome.fa" and "whole_transcriptome.gff.gz". Currently I am working on triple negative breast cancer transcriptome analysis and I would like to analyze the microRNA-mRNA interaction using ChiRA. Thank you in advance! Regards (*2020-06-09 00:00:00*)
+
 - **RNA-Seq reads to counts**
   - Pro:
     - I liked that it takes step by step (*2019-01-10 00:00:00*)
     - very user friendly  (*2019-09-16 00:00:00*)
     - Question and solutions part (*2019-10-22 00:00:00*)
+    - Stepwise procedure is helpful (*2019-12-24 00:00:00*)
+    - All (*2020-03-27 00:00:00*)
+    - Very clear tutorial thank you very much! :) (*2020-04-05 00:00:00*)
+    - The workflow is very clear and easy to use (*2020-04-15 00:00:00*)
   - Con:
     - If we could download it as a pdf  (*2019-10-22 00:00:00*)
+    - Additional GUI based support tool and environment , parameters like isoforms, splice variant, etc can also be explained in detail (*2019-12-24 00:00:00*)
+    - There is a mistake in upload file . LF and LE are lactate luminal and not virgin luminal. (*2020-03-27 00:00:00*)
+    - A little bit more information about alternative parameters, like using other annotation files than the build in genome and going a bit further into the advanced parameters of the featurecounts tool (How to map per feature vs. metafeature) (*2020-04-15 00:00:00*)
 
 - **RNA-seq counts to genes**
   - Pro:
     - Clear, comprehensive, great screenshots (*2019-04-18 00:00:00*)
     - Easy to follow and showed what our plots/table should look like (*2019-08-12 00:00:00*)
+    - Nicely explained (*2020-02-04 00:00:00*)
   - Con:
     - Nothing so far (*2019-04-18 00:00:00*)
 
@@ -89,9 +124,11 @@
     - easy to follow. thank you for including a picture of the results for comparison (*2019-08-19 00:00:00*)
     - perfect content  (*2019-09-30 00:00:00*)
     - very clear, good sample data  (*2019-10-03 00:00:00*)
+    - ease of peerforming (*2020-04-30 00:00:00*)
   - Con:
     - more analysis/interpretation (*2019-08-19 00:00:00*)
     - update the content periodically, otherwise it is difficult to follow the procedures which are mentioned in here in the absence of some of the tools in the galaxy    (*2019-09-30 00:00:00*)
+    - analysis of the plots and hallmarks  (*2020-04-30 00:00:00*)
 
 - **Reference-based RNA-Seq data analysis**
   - Pro:
@@ -130,6 +167,9 @@
     - Everything worked fine, nice hands-on practice for beginners (*2019-10-08 00:00:00*)
     - It is a perfect introduction! (*2019-10-20 00:00:00*)
     - Each step is very detailed (*2019-10-22 00:00:00*)
+    - very detailed description, also explains the background very well (*2020-02-21 00:00:00*)
+    - straight forward easy to follow (*2020-05-25 00:00:00*)
+    - All the involved headings and subheadings (*2020-06-29 00:00:00*)
   - Con:
     - Naming of the output files (*2018-09-27 00:00:00*)
     - I think there is an error: Join two Datasets tool  * with (output of the last Filter tool)  --> Should be with (output of Concatenate tool)  (*2018-10-19 00:00:00*)
@@ -158,6 +198,8 @@
     - The tempo in the afternoon session was at times too fast. The tools are slow and at least I was lagging behind at some points. The presentation on general RNA sequencing could maybe fit better after general Galaxy presentation, which took place yesterday. It would be more engaging if the presentation was tied to some kind of real experiment. e.g. we are trying to find out what happens after some treatment and we reach a conclusion afterwards. (*2019-10-08 00:00:00*)
     - some theoretical stuff was a bit hard to follow (*2019-10-08 00:00:00*)
     - Provide a video or screenshot (*2019-10-22 00:00:00*)
+    - - (*2020-02-21 00:00:00*)
+    - Practice and analysis of examples  (*2020-06-29 00:00:00*)
 
 - **Reference-based RNAseq data analysis (long)**
   - Pro:
@@ -178,6 +220,12 @@
     - very much (*2019-09-23 00:00:00*)
     - explanations are clear, there's more info if needed. Thank you! (*2019-09-26 00:00:00*)
     - Explanation (*2019-10-25 00:00:00*)
+    - examples (*2019-12-18 00:00:00*)
+    - Easy to follow for beginners (*2020-03-29 00:00:00*)
+    - It was very clear! (*2020-04-03 00:00:00*)
+    - The tutorial was very clear and straight to the point  (*2020-04-20 00:00:00*)
+    - Well explained and simple to understand (*2020-05-14 00:00:00*)
+    - For a biologist, getting a headstart in NGS analysis with user-friendly GI. Looking forward to learn more :) (*2020-05-18 00:00:00*)
   - Con:
     - Tutorial doesn't have any public servers listed. Maybe a tool version conflict? Latest version is 0.0.3 and is installed at EU (and I made a request to add it to ORG). Are probably more tutorials like this -- seems the lists of "instances" is decreasing overall (bigger project, maybe good for the GTN or GCC co-fests) (*2019-05-09 00:00:00*)
     - Providing the code to generate the figures in solutions to help troubleshoot errors can help better. (*2019-07-11 00:00:00*)
@@ -185,10 +233,19 @@
     - So far so good (*2019-08-08 00:00:00*)
     - That is more better if add R script (*2019-09-23 00:00:00*)
     - If it could come up in google searches a little more in the top list even without the search word galaxy (*2019-09-26 00:00:00*)
+    - its perfect (*2019-12-18 00:00:00*)
+    - It's not directly related to the tutorial, but plot cannot be generated : "Please update dplyr with `install.packages("dplyr")` and restart R". I dont' manage to solve this problem. I hope you could help me ! Thanks (*2020-03-29 00:00:00*)
+    - nothing (*2020-04-20 00:00:00*)
+    - i like it so far. Everything was organised perfectly. (*2020-05-18 00:00:00*)
 
 - **Visualization of RNA-Seq results with heatmap2**
   - Pro:
     - we get through a lot of different tools (*2019-10-08 00:00:00*)
+    - Every step is explained properly and easy to follow. (*2020-05-18 00:00:00*)
+    - Detailed, organised and very easy to follow plus the additional questions and answers are good. (*2020-05-18 00:00:00*)
+    - It provides the step by step way to beginners to do and to understand the RNA-seq experiment and data analysis. (*2020-06-18 00:00:00*)
   - Con:
     - maybe it should be separated to 2 days, because it was a lot of stuff (*2019-10-08 00:00:00*)
+    - It was good. More explanation on when to choose along with explanation of different options available in drop downs (but for this, the ones interested can go to links to figure out details too) (*2020-05-18 00:00:00*)
+    - already very good. (*2020-06-18 00:00:00*)
 

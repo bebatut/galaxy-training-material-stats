@@ -11,9 +11,13 @@
     - Detailed of both technique are very concise and helpful (*2019-06-01 00:00:00*)
     - The microscopic information (*2019-07-05 00:00:00*)
     - it simple, useful  for people who is not  trained in MS field (*2019-10-28 00:00:00*)
+    - it was clear and straight-forward. Very easy to follow (*2019-12-14 00:00:00*)
+    - Clear explanation of the pros and cons.  (*2020-01-16 00:00:00*)
+    - very detailed (*2020-03-02 00:00:00*)
   - Con:
     - More details could have been added (*2019-07-05 00:00:00*)
     - how the difference among instruments may affect the  measures (*2019-10-28 00:00:00*)
+    - Data analysis pitfalls can be elaborated. (*2020-01-16 00:00:00*)
 
 - **Peptide and Protein ID using OpenMS tools**
   - Pro:
@@ -32,7 +36,9 @@
     - Many details and background information (*2018-09-29 00:00:00*)
     - Easily explained with lot of interactive information about publishing data and archiving data analysis  (*2018-10-04 00:00:00*)
     - It is easy to follow. It saved me a lot of time and effort trying to generate this database (*2018-11-08 00:00:00*)
+    - Extremely clear and easy to follow (*2020-05-22 00:00:00*)
   - Con:
     - Fasta merging parameter How are sequences judged to be unique? should be set to 'Accession only' (*2018-09-29 00:00:00*)
     - A way to check your results are consistent with, for example, a master/reference database. (*2018-11-08 00:00:00*)
+    - Maybe add the subheadings in the tool library under which the specific tools can be found (*2020-05-22 00:00:00*)
 

@@ -4,10 +4,12 @@
     - Clarity and background details (*2018-10-19 00:00:00*)
     - How  simply and clearly the steps have been put (*2019-02-21 00:00:00*)
     - Clear explanations of the tools; helpful workflow; I think the Hand On opportunities and prompt questions are really beneficial. (*2019-03-12 00:00:00*)
+    - I liked how clear it was and how it described what the output files from each part were and where they were being used later on. (*2020-05-12 00:00:00*)
   - Con:
     - Using the mock community. More light on rationale (*2018-09-17 00:00:00*)
     - Need a step on how to remove barcodes, adapters and primers from raw FASTAq sequences (*2018-10-19 00:00:00*)
     - Descriptions of which files to use were not always clear enough for me to determine which one to use. The justification of some selections for tool options could be expanded on, or additional links to papers noted where appropriate. (*2019-03-12 00:00:00*)
+    - For a beginner like  myself it is difficult to figure out how to actually graph some of the plots. I could not get the venn diagram or heatmap to plot and it would be nice to see some instruction on how to plot the NMDS/PCoA plots etc (*2020-05-12 00:00:00*)
 
 - **16S Microbial Analysis with mothur**
   - Pro:
@@ -29,6 +31,12 @@
     - Good but didn't show visualisations at the end. The phinch visualisations weren't present. (*2019-09-23 00:00:00*)
     - Perfectly explained (*2019-10-02 00:00:00*)
     - Flow (*2019-11-18 00:00:00*)
+    - I liked the step-by-step how to instructions (*2019-12-30 00:00:00*)
+    - It was quite easy to follow and understand (*2020-02-14 00:00:00*)
+    - It is very clear for no expert people (*2020-02-24 00:00:00*)
+    - The fact that there was an exlpanation on why we are doing all these steps (*2020-04-09 00:00:00*)
+    - it is hands on course (*2020-05-12 00:00:00*)
+    - Very interactive and gave detailed instructions about what to do and why. Very beginner friendly (*2020-06-09 00:00:00*)
   - Con:
     - Flexibility of the analysis depending on the type of samples, replicates, etc (*2019-05-31 00:00:00*)
     - troubleshooting  (*2019-05-31 00:00:00*)
@@ -38,12 +46,21 @@
     - The phinch graphs (*2019-09-23 00:00:00*)
     - The use of the  Venn software was not available (*2019-10-02 00:00:00*)
     - Where to download different databases (*2019-11-18 00:00:00*)
+    - I got lost at "make.contigs" - could not find out how to use that tool in Galaxy :( (*2019-12-30 00:00:00*)
+    - Information about the data sets (trainset9_032012.pds.fasta trainset9_032012.pds.tax) should be provided    (*2020-01-21 00:00:00*)
+    - I saw 0.31 instead of 0.03 in the cut off box several times, would be better if it is corrected to 0.03 which is equal to 97%  (*2020-02-14 00:00:00*)
+    - Maybe adding PCA (*2020-04-09 00:00:00*)
+    - I did not understand meaning of many options. (*2020-05-12 00:00:00*)
+    - Give brief introduction about the files extensions (for example what is a FASTQ/FASTA file?) (*2020-06-09 00:00:00*)
 
 - **16S Microbial Analysis with mothur (short)**
-
+  - Pro:
+    - The instruction was easy to follow and expressed almost perfect descriptions. (*2020-01-15 00:00:00*)
   - Con:
     - At the Phinch step: “metadata”: the mouse.dpw.metadata file you uploaded at the start of this tutorial  I have looked up in the tutorial, but could not find a link to that metadata file. Could you provide a URL where to get it? (*2019-07-08 00:00:00*)
     - The Krona plot - this appears to be of all samples. Would be good to per sample. Might not be possible with Phinch. As for Phinch, that is no longer web accessible but standalone and has dropped functionality. (*2019-08-02 00:00:00*)
+    - Some part of them indicated from old version of pages, but it was okay to be followed. (*2020-01-15 00:00:00*)
+    - How to group samples into cohorts for anlaysis (*2020-02-10 00:00:00*)
 
 - **Analyses of metagenomics data - The global picture**
   - Pro:
@@ -56,6 +73,7 @@
     - veryl clear and easy to follow (*2019-06-09 00:00:00*)
     - Visualization Feature (*2019-09-09 00:00:00*)
     - tools (*2019-10-02 00:00:00*)
+    - flow of the tutorial  (*2019-12-29 00:00:00*)
   - Con:
     - It needs to be updated, some returns error and some is missing. Be more detail and specific (*2018-10-29 00:00:00*)
     - Please review the protocol and revise some segments  (*2018-10-30 00:00:00*)
@@ -66,7 +84,11 @@
     - 1) Hands-on: Visualization of the community structure with Phinch, this part is not clear. I cannot get the coectly find to use in Phinch2. Hoe i can get it? 2).Shotgun metagenomics data, I can not find any tools from galaxy for following this hand on. (*2019-08-25 00:00:00*)
     - Graph gallery visualization feature (*2019-09-09 00:00:00*)
     - Nothing now (*2019-10-02 00:00:00*)
+    - more accurate galaxy functions reference.  (*2019-12-29 00:00:00*)
 
 - **Antibiotic resistance detection**
+
+
+- **Metatranscriptomics analysis using microbiome RNA-seq data**
 
 

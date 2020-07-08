@@ -1,7 +1,11 @@
+- **Essential genes detection with Transposon insertion sequencing**
+
+
 - **Genome Annotation**
   - Pro:
     - good description of what annotation is (*2019-04-08 00:00:00*)
     - text is kept to a minimum (*2019-07-10 00:00:00*)
+    - Easy to understand steps. (*2020-03-14 00:00:00*)
   - Con:
     - did not tell me how to do annotation using tools present here, would like a step by step instruction on how to do an annotation if I have a genome sequence (*2019-04-08 00:00:00*)
     - better overview of annotation process, more graphical instructions (*2019-07-10 00:00:00*)
